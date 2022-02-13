@@ -1,0 +1,52 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/typography": "^0.3.0",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.2.4",
+        "axios": "^0.21",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.11",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "postcss": "^8.2.6",
+        "postcss-import": "^12.0.1",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.32.8",
+        "sass-loader": "^8.0.0",
+        "tailwindcss": "^2.0.3",
+        "vue": "^2.5.17",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@chenfengyuan/vue-carousel": "^1.0.6",
+        "@ckeditor/ckeditor5-build-classic": "^26.0.0",
+        "@ckeditor/ckeditor5-vue2": "^1.0.5",
+        "chart.js": "^3.0.2",
+        "jquery": "^3.5.1",
+        "laravel-vue-pagination": "^2.3.1",
+        "toastr": "^2.1.4",
+        "vue-chartjs": "^3.5.1",
+        "vue-count-to": "^1.0.13",
+        "vue-html-to-paper": "^1.3.1",
+        "vue-js-modal": "^2.0.0-rc.6",
+        "vue-moment": "^4.1.0",
+        "vue-router": "^3.5.1",
+        "vue-search-select": "^2.9.3",
+        "vue-sweetalert2": "^4.2.0",
+        "vue-toastr-2": "0.0.10",
+        "vuex": "^3.6.2"
+    }
+}
